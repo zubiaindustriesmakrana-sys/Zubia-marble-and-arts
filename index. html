@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZUBIA INDUSTRY</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f8f8;
+    color: #333;
+}
+
+/* NAVBAR */
+nav {
+    background: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav h1 {
+    font-size: 22px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+}
+
+/* HERO */
+.hero {
+    background: url('your-banner.jpg') center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 40px;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+/* SECTION */
+section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+
+</head>
+<body>
+
+<nav>
+    <h1>ZUBIA INDUSTRY</h1>
+    <div>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<div class="hero">
+    <h2>Crafting Devotion <br> Marble Mandirs & Stone Carvings</h2>
+</div>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p style="text-align:center;">
+        ZUBIA INDUSTRY is a leading marble mandir and stone carving business.
+        We create high-quality CNC designs and custom temple work across India.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Our Projects</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="mandir1.jpg">
+            <p>Krishna Mandir Design</p>
+        </div>
+        <div class="card">
+            <img src="mandir2.jpg">
+            <p>Ram Krishna Mandir</p>
+        </div>
+        <div class="card">
+            <img src="mandir3.jpg">
+            <p>Vastu Mandir</p>
+        </div>
+        <div class="card">
+            <img src="mandir4.jpg">
+            <p>Custom CNC Design</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 9413926247</p>
+    <p>📞 9166196709</p>
+    <p>📧 zubiaindustry@gmail.com</p>
+</section>
+
+<footer>
+    <p>© 2026 ZUBIA INDUSTRY | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
